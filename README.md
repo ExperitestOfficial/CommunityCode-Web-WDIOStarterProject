@@ -1,2 +1,2 @@
 # CommunityCode-Web-WDIOStarterProject
-Starter project with WebdriverIO
+Starter project with WebdriverIO.
