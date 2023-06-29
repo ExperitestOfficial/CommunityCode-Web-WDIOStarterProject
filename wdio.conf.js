@@ -2,7 +2,7 @@ exports.config = {
     // ====================
     // Runner Configuration
     // ====================
-    hostname: 'mastercloud.experitest.com',
+    hostname: '<CLOUD_URL>',
     protocol: 'https',
     port: 443,
     path: '/wd/hub',
@@ -19,8 +19,8 @@ exports.config = {
     // ============
     capabilities: [{
 		'experitest:testName' : 'Demo Bank Example Test',
-		'experitest:accessKey' : <ACCESS_KEY>,
-		browserName: 'chrome', /* Change this to run your test on different browsers. */
+		'experitest:accessKey' : '<ACCESS_KEY>',
+		browserName: 'chrome', // Change this to run your test on different browsers.
     }],
 
     mochaOpts: {
