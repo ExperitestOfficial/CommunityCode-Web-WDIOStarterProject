@@ -36,7 +36,7 @@ To set up continuous testing, update the relevant properties in **wdio.conf.js**
 
 The project already contains test for the Demo Bank Website. You can add new tests to your application.
 
-- Add android test to test/specs/.
+- Add test to test/specs/.
 
 ### Configuring Test Capabilities
 
