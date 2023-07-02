@@ -38,6 +38,21 @@ The project already contains test for the Demo Bank Website. You can add new tes
 
 - Add android test to test/specs/.
 
+### Configuring Test Capabilities
+
+You can add custom capabilities under capabilities in **wdio.conf.js**. For more information see https://docs.experitest.com/display/TET/Capabilities+In+Selenium+Tests. Continuous Testing Capabilities  must have 'experitest' prefix.
+
+Examples:
+
+**wdio.conf.js**
+```
+capabilities: [{
+		'experitest:testName' : 'Demo Bank Example Test',
+		'experitest:accessKey' : '<ACCESS_KEY>',
+		browserName: 'chrome', // Change this to run your test on different browsers.
+    }]
+```
+
 ### Perform Test
 
 To perform the test, run the relevant command.
