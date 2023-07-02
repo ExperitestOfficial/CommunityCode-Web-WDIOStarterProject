@@ -12,7 +12,7 @@ exports.config = {
     // Define which test specs should run. The pattern is relative to the directory
     // from which `wdio` was called.
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/*.js'
     ],
     // ============
     // Capabilities
