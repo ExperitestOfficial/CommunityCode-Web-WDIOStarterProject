@@ -72,7 +72,7 @@ To enable Parallel Execution, set the "**maxInstances**" parameter in **wdio.con
 
 In this example, a maximum of 3 tests are spawned for every capability defined under capabilities in **wdio.conf.js:**. For more information about capabilities see  <a href="#WebDriverIo Capabilities"> WebDriverIo Capabilities</a>.
 
-### Example: Running Tests on Different Devices
+### Example: Running Tests on Different browsers
 
 To test your website on different browsers, specify different browser names in every configuration.
 
