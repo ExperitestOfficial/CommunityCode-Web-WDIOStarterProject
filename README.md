@@ -93,7 +93,7 @@ capabilities: [{
 
 ## Related Documentation
 
-To learn more Continous Testing usage, features, and best practices, visit our online [documentation](https://docs.experitest.com/display/TE/Test+Execution+Home).
+To learn more Continous Testing usage, features, and best practices, visit our online [documentation](https://docs.digital.ai/bundle/LT/page/live_testing_home.html).
 
 ## Support
 
