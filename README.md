@@ -28,7 +28,7 @@ To set up Continuous Testing, update the relevant properties in **wdio.conf.js**
 
 - hostname - Continuous Testing Cloud URL.
 
-- 'experitest:accessKey' - Access Key. For more information see [Obtaining Access Key](https://docs.digital.ai/bundle/TE/page/obtaining_access_key.html).
+- 'digitalai:accessKey' - Access Key. For more information see [Obtaining Access Key](https://docs.digital.ai/bundle/TE/page/obtaining_access_key.html).
 
 ### Add Tests
 
@@ -43,8 +43,8 @@ You can add custom capabilities under capabilities in **wdio.conf.js**. For more
 **wdio.conf.js**
 ```
 capabilities: [{
-		'experitest:testName' : 'Demo Bank Example Test',
-		'experitest:accessKey' : '<ACCESS_KEY>',
+		'digitalai:testName' : 'Demo Bank Example Test',
+		'digitalai:accessKey' : '<ACCESS_KEY>',
 		browserName: 'chrome', // Change this to run your test on different browsers.
     }]
 ```

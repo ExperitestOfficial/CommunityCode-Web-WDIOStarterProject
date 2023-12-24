@@ -18,8 +18,8 @@ exports.config = {
     // Capabilities
     // ============
     capabilities: [{
-		'experitest:testName' : 'Demo Bank Example Test',
-		'experitest:accessKey' : '<ACCESS_KEY>',
+		'digitalai:testName' : 'Demo Bank Example Test',
+		'digitalai:accessKey' : '<ACCESS_KEY>',
 		browserName: 'chrome', // Change this to run your test on different browsers.
     }],
 
