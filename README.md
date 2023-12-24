@@ -1,5 +1,5 @@
 # CommunityCode-Web-WDIOStarterProject
-Starter project with WebdriverIO.
+This is a starter project to help you start using Continuous Testing with WebdriverIO.
 
 ## Run The Project
 ### Clone Starter Project
@@ -19,36 +19,32 @@ To get started with this project:
 
 ### Configuration Files
 
-The project contains this configuration file:
-
-- **wdio.conf.js** - Test configurations.
+The project contains the configuration file **wdio.conf.js**. It contains the test configurations.
 
 
-### Setting Up Continuous Testing Cloud Url And Authentication
+### Set Up the Continuous Testing Cloud URL And Authentication
 
-To set up continuous testing, update the relevant properties in **wdio.conf.js**:
+To set up Continuous Testing, update the relevant properties in **wdio.conf.js**:
 
-- hostname - Continuous Testing Cloud url.
+- hostname - Continuous Testing Cloud URL.
 
-- 'experitest:accessKey' - Access Key. For more information see: https://docs.experitest.com/display/TE/Obtaining+Access+Key
+- 'digitalai:accessKey' - Access Key. For more information see [Obtaining Access Key](https://docs.digital.ai/bundle/TE/page/obtaining_access_key.html).
 
-### Adding tests
+### Add Tests
 
-The project already contains test for the Demo Bank Website. You can add new tests to your application.
-
-- Add test to test/specs/.
+The project already contains tests for the Demo Bank Website. You can add new tests to your application by adding them to test/specs/.
 
 ### Configuring Test Capabilities
 
-You can add custom capabilities under capabilities in **wdio.conf.js**. For more information see https://docs.experitest.com/display/TET/Capabilities+In+Selenium+Tests. Continuous Testing Capabilities  must have 'experitest' prefix.
+You can add custom capabilities under capabilities in **wdio.conf.js**. For more information see [Capabilities in Selenium Tests](https://docs.digital.ai/bundle/TE/page/capabilities_in_selenium_tests.html). Continuous Testing Capabilities  must have 'experitest' prefix.
 
-Examples:
+### Examples:
 
 **wdio.conf.js**
 ```
 capabilities: [{
-		'experitest:testName' : 'Demo Bank Example Test',
-		'experitest:accessKey' : '<ACCESS_KEY>',
+		'digitalai:testName' : 'Demo Bank Example Test',
+		'digitalai:accessKey' : '<ACCESS_KEY>',
 		browserName: 'chrome', // Change this to run your test on different browsers.
     }]
 ```
@@ -97,11 +93,11 @@ capabilities: [{
 
 ## Related Documentation
 
-To find out more about CT usage, features and best practices, visit our online [documentation](https://docs.experitest.com/display/TE/Test+Execution+Home).
+To learn more Continous Testing usage, features, and best practices, visit our online [documentation](https://docs.digital.ai/bundle/LT/page/live_testing_home.html).
 
 ## Support
 
-If you encounter an issue that is not covered here or in our online documentation, contact us at support@digital.ai
+If you encounter an issue that is not covered here or in our online documentation, contact us at [support@digital.ai](mailto:support@digital.ai).
 
 
   
